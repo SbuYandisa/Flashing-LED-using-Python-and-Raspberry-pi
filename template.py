@@ -12,7 +12,6 @@ import time
 import itertools
 
 listIndex=0
-#listIndex2=8
 channel_list=(7,13,15)
 binary_list =list()
 #configure GPIOs
@@ -32,7 +31,7 @@ def initBTNS():
     GPIO.setup(16,GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 #--------------------------------------------------------------------------------------
-#conversion function
+#binary number generator function
 def BinaryConversion():
     list = []
     for x in map(' '.join, itertools.product('01', repeat=3)):
