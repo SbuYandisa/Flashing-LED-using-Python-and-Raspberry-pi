@@ -1,2 +1,4 @@
 # Prac1
-NOTE! template.py is the python code for practical 1.
+NOTE:
+  template1.py was for testing the python code.
+  The final python code for practical is in template.py.
