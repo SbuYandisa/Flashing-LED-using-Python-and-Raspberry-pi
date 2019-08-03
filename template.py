@@ -4,7 +4,7 @@ Python Practical Template
 Name: Yandisa Madinga
 Student Number: MDNYAN002
 Prac: Prac 1
-Date: 
+Date: 29/07/2019
 """
 
 import RPi.GPIO as GPIO
